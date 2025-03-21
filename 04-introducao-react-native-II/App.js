@@ -3,14 +3,14 @@ import { StyleSheet, Text, View, Button, Image, ScrollView } from 'react-native'
 
 export default function App() {
 
-    
 
- const nome ="Mateus"
+
+  const nome = "Mateus"
 
 
   function alerta() {
-  alert('Clicou no Botão!!!')
-}
+    alert('Clicou no Botão!!!')
+  }
 
 
 
@@ -27,46 +27,50 @@ export default function App() {
     <ScrollView>
 
 
-    
-    
+
+      <View>
+        <View>
+          <Text>Teste</Text>
+        </View>
+      </View>
 
 
-    <View style={styles.container}>
-      <StatusBar style="auto" />
+      <View style={styles.container}>
+        <StatusBar style="auto" />
 
 
-      <Text  style={{ fontSize: 40}}>MATEUS</Text>
+        <Text style={{ fontSize: 40 }}>MATEUS</Text>
 
-      <Text style={styles.textoGrande}>Mateus Gostoso</Text>
-      <Text style={styles.textoGrande}>Mateus Gostoso</Text>
-      <Text style={styles.textoGrande}>Mateus Gostoso</Text>
+        <Text style={styles.textoGrande}>Mateus Gostoso</Text>
+        <Text style={styles.textoGrande}>Mateus Gostoso</Text>
+        <Text style={styles.textoGrande}>Mateus Gostoso</Text>
 
-      <Button title='ENVIAR' onPress={alerta}></Button>
+        <Button title='ENVIAR' onPress={alerta}></Button>
 
-      <Image 
-      source={{
-        uri: 'https://i.pinimg.com/736x/ab/91/fb/ab91fba3c95504300f962f1da3f1b6a0.jpg'
-      }}
-      style ={{
-        height: 400,
-        width: 400
-      }}
-      
-      
-      />
+        <Image
+          source={{
+            uri: 'https://i.pinimg.com/736x/ab/91/fb/ab91fba3c95504300f962f1da3f1b6a0.jpg'
+          }}
+          style={{
+            height: 400,
+            width: 400
+          }}
 
 
+        />
 
-<Image 
-      source={ require('./Imagens/image.png')}
-      style ={{
-        height: 300,
-        width: 300
-      }}
-      />
 
-    </View>
-    </ScrollView> 
+
+        <Image
+          source={require('./Imagens/image.png')}
+          style={{
+            height: 300,
+            width: 300
+          }}
+        />
+
+      </View>
+    </ScrollView>
   );
 }
 

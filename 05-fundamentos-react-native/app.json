@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "React2",
-    "slug": "React2",
+    "name": "05-fundamentos-react-native",
+    "slug": "05-fundamentos-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
