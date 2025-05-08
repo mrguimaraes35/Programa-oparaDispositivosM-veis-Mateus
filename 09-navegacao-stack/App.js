@@ -13,6 +13,7 @@ export default function App() {
         {/* Stack */}
         <StackRoutes />
 
+
       </NavigationContainer>
     </PaperProvider>
   
